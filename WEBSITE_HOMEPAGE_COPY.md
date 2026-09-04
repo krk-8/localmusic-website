@@ -75,9 +75,9 @@ LocalMusic is for listeners who:
 
 ## Footer Links
 
-- Privacy Policy: `[PRIVACY POLICY URL]`
-- Support: `[SUPPORT URL]`
-- Terms of Use: `terms.html`
+- Privacy Policy: https://krk-8.github.io/localmusic-website/privacy.html
+- Support: https://krk-8.github.io/localmusic-website/support.html
+- Terms of Use: https://krk-8.github.io/localmusic-website/terms.html
 - Contact: `mailto:kanaiyalalkavathiya@gmail.com`
 
 ## About

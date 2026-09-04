@@ -98,4 +98,4 @@ kanaiyalalkavathiya@gmail.com
 
 or
 
-`[SUPPORT URL]`
+https://krk-8.github.io/localmusic-website/support.html

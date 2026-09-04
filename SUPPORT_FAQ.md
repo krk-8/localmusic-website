@@ -1,6 +1,6 @@
 # LocalMusic Support And FAQ
 
-If you need help or have questions, contact: kanaiyalalkavathiya@gmail.com or visit `[SUPPORT URL]`.
+If you need help or have questions, contact: kanaiyalalkavathiya@gmail.com or visit https://krk-8.github.io/localmusic-website/support.html.
 
 ## What Is LocalMusic?
 
