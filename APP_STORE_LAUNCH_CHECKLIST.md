@@ -38,8 +38,8 @@ Use this checklist before submitting `LocalMusic` to the App Store.
 
 ## 4. Monetization
 
-- [ ] Create the in-app purchase for `LocalMusic Pro Unlock` (Lifetime - Non-Consumable).
-- [ ] Create the auto-renewable subscription for `LocalMusic Pro Yearly` (Yearly - Recurring Subscription).
+- [ ] Create the in-app purchase for `LocalMusic Lifetime Pro` (Lifetime - Non-Consumable).
+- [ ] Create the auto-renewable subscription for `LocalMusic Yearly Pro` (Yearly - Recurring Subscription).
 - [ ] Verify product IDs match `com.localmusicmp3.app.pro` and `com.localmusicmp3.app.pro.yearly`.
 - [ ] Confirm Pro messaging is clear: Yearly auto-renewable subscription and Lifetime one-time unlock.
 - [ ] Confirm the free tier limit (up to 5 songs) is described correctly.

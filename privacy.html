@@ -28,9 +28,9 @@
     <section class="content-hero">
       <div class="container">
         <div class="eyebrow">Privacy Policy</div>
-        <h1>Your data stays focused on your device.</h1>
+        <h1>Your music and listening data stay strictly on your device.</h1>
         <p class="lead">
-          LocalMusic is built with privacy at its core. Your imported songs and listening data remain strictly on your device.
+          LocalMusic is built from the ground up with zero-tracking, zero-data-collection, and total on-device isolation.
         </p>
       </div>
     </section>
@@ -39,88 +39,94 @@
       <div class="container content-layout">
         <article class="content-card">
           <p><strong>Last updated:</strong> <span class="inline-chip">September 2026</span></p>
-          <p>This Privacy Policy explains how Kanaiyalal Kavathiya handles information when you use the LocalMusic app.</p>
+          <p>This Privacy Policy explains how Kanaiyalal Kavathiya (&ldquo;Developer,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;) protects your privacy when you use the LocalMusic mobile application for iOS (the &ldquo;App&rdquo;).</p>
 
-          <h2>1. Summary</h2>
-          <p>LocalMusic is designed to play audio files that you choose to import. We do not provide a streaming music catalog, and we do not require you to create an account to use the app.</p>
+          <h2>1. Fundamental Privacy Principle: 100% On-Device</h2>
+          <p>LocalMusic is an offline utility designed exclusively to organize and play audio files that you choose to import. We operate no remote user servers, maintain no user database, require no account registration, and collect zero personal information from you.</p>
 
-          <h2>2. Information We Collect</h2>
-          <p>We do not collect personal information directly through the app for our own analytics, advertising, or tracking purposes.</p>
-          <p>The app stores certain information locally on your device so it can function properly, including:</p>
+          <h2>2. Information Stored Locally on Your Device</h2>
+          <p>To deliver playback, organization, and audio features, the App stores data strictly within the sandboxed local storage of your iOS device. This local data includes:</p>
           <ul>
-            <li>songs you choose to import into the app</li>
-            <li>song metadata such as title, artist, duration, and artwork</li>
-            <li>playlists you create</li>
-            <li>playback state such as queue, progress, shuffle, and repeat settings</li>
-            <li>equalizer settings</li>
-            <li>in-app purchase unlock state cached on-device</li>
+            <li><strong>Audio Files &amp; Folders:</strong> The audio tracks you import from the iOS Files picker or external drives (e.g., MP3, M4A, WAV, AAC, AIFF, CAF).</li>
+            <li><strong>Lyrics Files:</strong> Standalone lyrics files (.lrc, .srt, .txt) and embedded ID3 synchronized lyrics.</li>
+            <li><strong>Metadata &amp; Cover Art:</strong> Song titles, artist names, album titles, track durations, and album artwork (either embedded or custom-assigned).</li>
+            <li><strong>Playlists &amp; Queue:</strong> Playlists you create, song order, playback queues, shuffle order, and repeat modes.</li>
+            <li><strong>Audio Engine Preferences:</strong> 10-band equalizer slider gains, selected EQ presets, crossfade transition duration, playback speed, and sleep timer settings.</li>
+            <li><strong>Private Listening Stats:</strong> Local play counts, listening duration (hours/minutes), top played songs, and listening streaks calculated entirely on-device by local Core Data logic. <em>These stats are never transmitted anywhere.</em></li>
+            <li><strong>Pro Entitlement State:</strong> Locally cached StoreKit receipt / purchase verification status to allow uninterrupted offline Pro access.</li>
           </ul>
 
-          <h2>3. Files You Import</h2>
-          <p>When you choose audio files through the iOS Files picker, LocalMusic may copy those files into the app's local storage so they can be played and managed inside the app.</p>
-          <p>These files are stored on your device. They are not uploaded to our servers by the app.</p>
-          <p>You are responsible for ensuring that you have the rights to use any audio files you import.</p>
-
-          <h2>4. Purchases</h2>
-          <p>If you purchase a Pro plan or unlock, payments are processed securely by Apple through the App Store. We do not receive or store your payment details such as credit card numbers.</p>
-          <p>The app verifies your purchase entitlements through Apple's StoreKit framework and may cache your status locally on your device to ensure uninterrupted offline access.</p>
-
-          <h2>5. Widgets And App Extensions</h2>
-          <p>If you use LocalMusic widgets, the app may store limited now playing information in a shared app group container on your device so the widget can display current playback information and playback controls.</p>
-          <p>This may include:</p>
+          <h2>3. Zero Server Uploads &amp; File Isolation</h2>
+          <p>When you import audio files or lyrics into LocalMusic, the files are copied directly into the App's sandboxed local container on your iPhone.</p>
           <ul>
-            <li>current song title</li>
-            <li>current artist name</li>
-            <li>artwork associated with the current song</li>
-            <li>up next titles</li>
-            <li>playback state</li>
-          </ul>
-          <p>This information is stored locally on your device for app functionality.</p>
-
-          <h2>6. Tracking And Analytics</h2>
-          <p>LocalMusic does not use advertising trackers in the app.</p>
-          <p>LocalMusic does not use third-party analytics or advertising SDKs.</p>
-
-          <h2>7. Third-Party Services</h2>
-          <p>The app relies on Apple services and frameworks for parts of its functionality, such as:</p>
-          <ul>
-            <li>App Store and StoreKit for purchases and purchase restoration</li>
-            <li>iOS system media controls and lock screen now playing features</li>
-            <li>iOS Files picker for user-selected imports</li>
-          </ul>
-          <p>These services are governed by Apple's own terms and privacy practices.</p>
-
-          <h2>8. Data Retention</h2>
-          <p>Because LocalMusic stores data locally on your device, imported songs, playlists, settings, and playback state remain on your device until you delete them, delete the app, or clear them yourself.</p>
-
-          <h2>9. Children's Privacy</h2>
-          <p>LocalMusic does not collect personal information from children or any other users.</p>
-
-          <h2>10. International Users</h2>
-          <p>If you use the app outside India, you understand that information handled by Apple services may be processed according to Apple's systems and policies.</p>
-
-          <h2>11. Your Choices & Data Control</h2>
-          <ul>
-            <li>delete imported songs from within the app at any time</li>
-            <li>remove the app and all associated local data from your device</li>
-            <li>manage subscriptions and purchases through your Apple ID settings</li>
-            <li>contact us directly with any privacy-related questions</li>
+            <li>We do not host or operate any file storage servers.</li>
+            <li>Your songs, artwork, lyrics, and metadata are <strong>never</strong> transmitted, uploaded, streamed, or synchronized to any external server by LocalMusic.</li>
+            <li>You maintain sole physical possession and custody of your files at all times.</li>
           </ul>
 
-          <h2>12. Changes To This Policy</h2>
-          <p>We may update this Privacy Policy from time to time. If we make material changes, we will update the Last updated date above.</p>
+          <h2>4. In-App Purchases and Billing Data</h2>
+          <p>If you purchase LocalMusic Pro (Yearly Subscription or Lifetime Unlock), payments and subscription billing are handled exclusively by Apple Inc. through the App Store and StoreKit framework.</p>
+          <p>The Developer never receives, sees, processes, or stores your credit card numbers, billing addresses, Apple ID credentials, or bank information. All payment processing is governed by Apple's Privacy Policy: <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">https://www.apple.com/legal/privacy/</a>.</p>
+
+          <h2>5. Lock Screen, Control Center, and Home Screen Widgets</h2>
+          <p>When using iOS system media features:</p>
+          <ul>
+            <li><strong>Lock Screen &amp; Control Center:</strong> The App uses Apple's native <code>MPNowPlayingInfoCenter</code> and <code>MPRemoteCommandCenter</code> to display the current track title, artist, artwork, and scrub bar on your lock screen and respond to headphone/Bluetooth controls.</li>
+            <li><strong>Home Screen Widgets:</strong> The App utilizes a local App Group container shared strictly between the main app and widget extension on your iPhone so the widget can display the current track, Up Next songs, and playback actions. No external networking is involved.</li>
+          </ul>
+
+          <h2>6. Siri Shortcuts &amp; App Intents</h2>
+          <p>If you configure Siri Shortcuts or voice commands (&ldquo;Play my music in LocalMusic&rdquo;), processing is handled on-device by Apple's SiriKit and App Intents architecture under iOS system security policies.</p>
+
+          <h2>7. Zero Tracking, Analytics, and Advertising SDKs</h2>
+          <p>LocalMusic is built with clean, native code:</p>
+          <ul>
+            <li><strong>NO Advertising SDKs:</strong> We do not include any ad networks, ad trackers, or advertising IDs.</li>
+            <li><strong>NO Third-Party Analytics:</strong> We do not embed Google Analytics, Firebase, Meta SDK, or telemetry frameworks.</li>
+            <li><strong>NO Fingerprinting:</strong> We do not track you across apps, websites, or services.</li>
+          </ul>
+
+          <h2>8. California Consumer Privacy Act (CCPA / CPRA)</h2>
+          <p>Under the California Consumer Privacy Act and California Privacy Rights Act:</p>
+          <ul>
+            <li>We do not collect personal information as defined by California law.</li>
+            <li>We do not &ldquo;sell&rdquo; or &ldquo;share&rdquo; personal information for cross-context behavioral advertising.</li>
+            <li>Because we store no personal data on servers, there is no personal data to disclose, sell, or delete from remote databases.</li>
+          </ul>
+
+          <h2>9. European Union General Data Protection Regulation (GDPR)</h2>
+          <p>Under the EU GDPR and UK GDPR, all data processing of your audio files, listening stats, and settings occurs locally on your personal device pursuant to your direct instruction (performance of contract/software utility). As the Developer maintains no remote servers holding your personal data, you exercise complete control (access, rectification, erasure, and portability) by managing files in the App or deleting the App from your device.</p>
+
+          <h2>10. Children's Privacy (COPPA)</h2>
+          <p>LocalMusic does not knowingly collect, solicit, or maintain any personal information from children under the age of 13 (or under 16 in the European Union). The App is an offline tool safe for all ages.</p>
+
+          <h2>11. Data Retention, Backup, and Deletion</h2>
+          <p>Because all data is stored locally on your device:</p>
+          <ul>
+            <li>You can delete individual songs, albums, or playlists anytime within the App.</li>
+            <li>Deleting the App from your iPhone will immediately erase all locally copied files, playlists, and cached settings in accordance with standard iOS sandboxing.</li>
+            <li>You are responsible for retaining backups of your original audio files outside of the App.</li>
+          </ul>
+
+          <h2>12. Changes to This Privacy Policy</h2>
+          <p>We may update this Privacy Policy from time to time to reflect App enhancements or regulatory requirements. Any updates will be posted here with a revised &ldquo;Last updated&rdquo; date.</p>
 
           <h2>13. Contact</h2>
-          <p>If you have any questions about this Privacy Policy, contact <a href="mailto:kanaiyalalkavathiya@gmail.com">kanaiyalalkavathiya@gmail.com</a> or visit <a href="https://krk-8.github.io/localmusic-website/support.html">https://krk-8.github.io/localmusic-website/support.html</a>.</p>
+          <p>If you have any questions or concerns regarding privacy, contact:<br>
+          <strong>Kanaiyalal Kavathiya</strong><br>
+          Email: <a href="mailto:kanaiyalalkavathiya@gmail.com">kanaiyalalkavathiya@gmail.com</a><br>
+          Support: <a href="https://krk-8.github.io/localmusic-website/support.html">https://krk-8.github.io/localmusic-website/support.html</a>
+          </p>
         </article>
 
         <aside class="sidebar-card">
-          <h3>Privacy Highlights</h3>
+          <h3>Privacy at a Glance</h3>
           <ul>
-            <li>No user account required.</li>
-            <li>No analytics or advertising trackers.</li>
-            <li>Audio files stay on your device.</li>
-            <li>Purchases processed securely via Apple.</li>
+            <li><strong>100% Offline:</strong> Playback requires no internet connection.</li>
+            <li><strong>Zero Tracking:</strong> No analytics SDKs or ad networks.</li>
+            <li><strong>Private Stats:</strong> Listening stats are calculated and kept on your iPhone.</li>
+            <li><strong>No Accounts:</strong> No sign-in, passwords, or emails collected by the app.</li>
+            <li><strong>Secure Purchases:</strong> All transactions processed solely by Apple.</li>
           </ul>
         </aside>
       </div>
